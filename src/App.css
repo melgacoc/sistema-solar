@@ -1,3 +1,17 @@
 .App {
   text-align: center;
 }
+
+.MissionCard {
+  border: solid;
+  box-shadow: 5px 10px 10px rgb(0, 113, 128);
+  height: 200px;
+  width: 200px;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient (
+    60deg,
+    #b16ec4,
+    #5f97b9);
+}
+
